@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  color: #fff;
+  background-color: #ffffff;
 }
 
 a {
@@ -73,6 +73,13 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 .features-title {
@@ -91,7 +98,7 @@ ol {
 }
 
 .team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -153,13 +160,16 @@ ol {
   color: #434455;
 }
 
+footer {
+  background-color: #2e2f42;
+}
+
+.logo-footer-color {
+  color: #f4f4fd;
+}
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-
-footer {
-  background-color: #2e2f42;
 }
